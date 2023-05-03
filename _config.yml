@@ -1,8 +1,23 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: TMS Days 2023 
+description: This webpage contains additional content with source code to all sessions.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+color_scheme: light
+
+url: 
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Holger's Books": 
+    - "https://flixengineering.com/books"
+  "TMS Software":
+    - "https://www.tmssoftware.com"
+aux_links_new_tab: true
+
+callouts:
+  warning:
+    title: warning
+    color: red
+
+  note:
+    title: note
+    color: yellow
