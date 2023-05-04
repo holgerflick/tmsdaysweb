@@ -6,9 +6,22 @@ nav_order: 1
 
 # Welcome to TMS Days 2023!
 
-This web page contains additional information and detailed explanations for several sessions. In addition to the source code, slides, and illustrations, some sessions contain detailed explanation of the source code shown during the live sessions.
+This guidebook contains additional information and detailed explanations for several sessions. In addition to the source code, slides, and illustrations, some sessions contain detailed explanation of the source code shown during the live sessions.
 
-This will allow you to study the code in depth after the event.
+My main goal is that this additional content will allow you to study the code in depth after the event. Listening to a session is one thing, but then to reproduce and recall all the information provided in such a short time span is a different story.
+
+All sessions follow an overarching example. The idea is instead of showing several "Hello World" applications, to rather show one application that makes use of the specific tools being presented. This way, it will be much easier to you to incorporate them into your own development cycle.
+
+## Where to start?
+
+Obviously, attend the sessions first. This guidebook will already come in handy while watching the sessions. All slides are available in this book. Thus, you can look at them right in front of you and even when the presentation is no longer showing a certain slide, you can look up the information at any time. 
+
+The same is true for the source code. You can easily navigate into the source while watching the presentation. GitHub will even provide proper formatting for the code.
+
+After attending the session, this book is structured in four main areas. One area will describe the scenario or use case of all the sessions. The other areas cover one session each.
+
+- **Description of the scenario** with in-depth explanation of the use cases that are modelled as well as the database structure. Building a proper database model is also an important aspect of software development, but it is not the primary focus. Still, this book contains an ER diagram and tables with all the tables to allow you to grasp the structure of the model even easier.
+- **Key facts** about all the three sessions. The presentations are full of content and this guidebook will pick the most important aspects and shed some more light onto them. This means that even re-usable code snippets can be found in this book.
 
 ## Where's the source code?
 
@@ -18,6 +31,28 @@ All source code is available in a private GitHub repository. I do want to restri
 - Email me and I will provide a ZIP file
 
 {: .note}
-I do not consider it necessary to emphasize that there is a clear downside to using the ZIP archive. I have given up on reasoning about the benefits of version control whichever system is being used. If you use the ZIP file, you will not benefit from any future updates that I will make to the source code.
+I do not consider it necessary to emphasize that there is a clear downside to using the ZIP archive. I have given up on reasoning about the benefits of version control whichever system is being used. Here's just one tidbit: If you use the ZIP file, you will not benefit from any future updates that I will make to the source code.
 
-The GitHub repositry is available at [GitHub](https://github.com/holgerflick/yardsales). This link is only accessible if I added your user profile to the repository.
+The GitHub repository is available [here](https://github.com/holgerflick/yardsales). This link is only accessible if I added your user profile to the repository.
+
+## More from Holger
+
+If you liked my sessions, maybe there is even more content available that will help you. On the top of the page, you will find links to my Delphi books and video courses that are available for purchase worldwide. 
+
+## Contracting
+
+I am available for training and contracting to support your software development process. Services can be provided in **German** and **English**.
+
+Please contact me if you are interested.
+
+### Germany (Europe)
+> Dr. Holger Flick [(Email)](holger@flixengineering.com)\
+> Gederbachweg 70\
+> 58453 Witten\
+> Deutschland
+
+### United States
+> Dr. Holger Flick [(Email)](holger@flixengineering.com)\
+> 13609 Lesina Court\
+> Estero, FL  33928\
+> United States of America

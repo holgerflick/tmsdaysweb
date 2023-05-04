@@ -1,4 +1,4 @@
-title: TMS Days 2023 
+title: Holger's Guidebook 
 description: This webpage contains additional content with source code to all sessions.
 theme: just-the-docs
 
@@ -9,8 +9,8 @@ url:
 aux_links:
   "Holger's Books": 
     - "https://flixengineering.com/books"
-  "TMS Software":
-    - "https://www.tmssoftware.com"
+  "Video Courses":
+    - "https://courses.landgraf.dev/"
 aux_links_new_tab: true
 
 callouts:
