@@ -27,13 +27,13 @@ After attending the session, this book is structured in four main areas. One are
 
 All source code is available in a private GitHub repository. I do want to restrict access to attendees of this event. Your have two options:
 
-- Provide your GitHub username and I will add you to the repository.
+- Provide your GitHub username and I will add you to the repository. With access to the repository, you can use any Git client *or* download a ZIP file reflecting all changes up to that day.
 - Email me and I will provide a ZIP file
 
 {: .note}
 I do not consider it necessary to emphasize that there is a clear downside to using the ZIP archive. I have given up on reasoning about the benefits of version control whichever system is being used. Here's just one tidbit: If you use the ZIP file, you will not benefit from any future updates that I will make to the source code.
 
-The GitHub repository is available [here](https://github.com/holgerflick/yardsales). This link is only accessible if I added your user profile to the repository.
+The GitHub repository is available [here](https://github.com/holgerflick/yardsales). This link is only accessible if I added your user profile to the repository. if you do not want to use a Git client to access the latest version, a ZIP file that is completely loosely coupled from version control or any further updates, can be downloaded [here](https://github.com/holgerflick/yardsales/archive/refs/heads/main.zip). Still, signing up to the repository allows you to opt-in for notification of future updates.
 
 ## More from Holger
 
