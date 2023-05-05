@@ -18,12 +18,23 @@ The template will be completely created in Microsoft Excel.
 {: .note}
 Obviously, you could generate the template document using FlexCel API as well. However, designing in Microsoft Excel is much easier.
 
+![](images/01/template.png)
+
+- Information for the yard sale record is not linked to the dataset. Instead, two placeholders are defined which are filled with values at run-time on a field-by-field basis. The report iteration does not affect this:
+  1. `#YardSaleTitle`: Title of the yard sale
+  1. `#YardSaleEventDates`: Date and time of the event
+
+- The logo of the yard sale - its thumbnail to be precise - will be loaded into the placeholder `#YardSaleThumb`.\
+![](images/01/templateimg.png)
+
 ## Report Manager data module
 
 The report manager hosts the operations to 
 - retrieve the data from the database,
 - load the report template, and
 - create the report.
+
+### Setting up the database connection
 
 All database queries are hosted inside the data module without a `FDConnection` instance. At run-time a connection will be linked to each query passed by the main form view controller.
 
@@ -39,6 +50,13 @@ begin
 end;
 ```
 The easiest way to do this is to provide a custom constructor. Hiding the default constructor, a connection `AConnection` now needs to be passed to the data module when created. That connection will then be stored in the field `FConnection`. Each query will also be linked to that connection.
+
+### Retrieving data with queries
+
+All queries are found on the designer canvas and make use of parameters. 
+
+{: .warning}
+**Always** use parameters. Never build your queries at run-time using strings.
 
 1. `Sale`: Select the yard sale that to create the report for:
 ```sql
