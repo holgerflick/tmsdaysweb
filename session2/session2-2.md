@@ -62,6 +62,7 @@ For a detailed explanation of data URL, please have a look at the second edition
 
 `GetDataUrlForSaleIcon` returns our image as a string and that is exactly what we can pass as an URL to the Google Maps API! If at any point you need a URL and you want to specify an image, you can use a data URL like we just created instead.
 
+## Adding markers 
 
 ```pascal
 procedure TMainViewController.AddParticipants(ASalesId: Integer; AMap:
@@ -70,16 +71,22 @@ var
   LIconDataUrl: String;
 
 begin
+  // get data url
   LIconDataUrl := GetDataUrlForSaleIcon;
 
+  // get all participants for the sale
   FParticipants.Free;
   FParticipants := FModel.GetParticipants(ASalesId);
+
   AMap.BeginUpdate;
   try
+    // clear map
     AMap.Clear;
 
+    // iterate all participants
     for var LParticipant in FParticipants do
     begin
+      // only add marker if location has been added
       if Assigned( LParticipant.Location ) then
       begin
         var LMarker := AMap.AddMarker(
@@ -88,13 +95,18 @@ begin
           LParticipant.Name
           );
 
+        // assign the object instance
         LMarker.DataObject := LParticipant;
+
+        // assign custom icon
         LMarker.IconURL := LIconDataUrl;
       end;
     end;
 
+    // if at least one marker exists
     if AMap.Markers.Count > 0 then
     begin
+      // zoom in and change view to area of interest
       AMap.ZoomToBounds( AMap.Markers.ToCoordinateArray );
     end;
   finally
@@ -106,3 +118,11 @@ Adding markers to a map is pretty straightforward. Call `AddMarker` with the coo
 
 {: .note}
 It is always good practice to call `BeginUpdate` and `EndUpdate` when adding a lot of markers to the map or making a lot of changes in general.
+
+Finally, after adding all the markers, we want to focus the user's attention to the area of interest where all participants are located.
+
+```pascal
+AMap.ZoomToBounds( AMap.Markers.ToCoordinateArray );
+```
+
+`ZoomToBounds` finds an optimal zoom factor that all markers are visible and also pans the view that they will be visible. `Markers` is a list of all markers that offers a property `ToCoordinateArray` to convert all coordinates into an array which `ZoomToBounds` expects as input.
