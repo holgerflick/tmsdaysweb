@@ -13,8 +13,8 @@ The session will explain how to create a database-driven report with preview. In
 
 ## Slides 
 
-- [PDF](../slides/FlexCel_Everywhere.pdf)
-- [PowerPoint](../slides/230505%20FlexCel%20Everywhere.pptx)
+- [PDF](../slides/FlexCel/FlexCel_Everywhere.pdf)
+- [PowerPoint](../slides/FlexCel/230505%20FlexCel%20Everywhere.pptx)
 
 ![](../slides/FlexCel/FlexCel_Everywhere_Page_01.png)
 
