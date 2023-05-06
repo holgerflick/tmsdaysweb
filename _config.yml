@@ -7,10 +7,13 @@ color_scheme: light
 url: 
 
 aux_links:
-  "Holger's Books": 
+  "Holger's 📘": 
     - "https://flixengineering.com/books"
-  "Video Courses":
+  "🎥 Courses":
     - "https://courses.landgraf.dev/"
+  "💛 Thank you ☕️":
+    - "https://ko-fi.com/holgerflick"
+
 aux_links_new_tab: true
 
 callouts:

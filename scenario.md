@@ -52,6 +52,9 @@ Here are a few highlights of the things you will learn:
   - Create a web service backend to store and retrieve information for the sign up page
   - Responsive web design using Bootstrap 
 
+  {: .note}
+The example will contain multiple applications to organize a yard sale. Still, only specific bits and pieces of the whole process are covered and it will allow you to add your own solutions. Further, there might be additional content in the future expanding this example. For example, adding a yard sale is only possible by adding the records into the database manually yourself using SQL or a database tool. 
+
 ## Database model
 
 We cannot design and create the database model as part of a session as it is a requirement for all three sessions. Basically, I'd be spending half the time doing the same thing each session. That's a great fun, cozy time for me, but might get boring at some point if you are interested in more than one of my sessions.
