@@ -44,6 +44,7 @@ Here are a few highlights of the things you will learn:
   - Locate and mark all participants on a map with custom icons
 1. FNC Maps:
   - Locate all participants on a map (geocoding)
+  - Add custom markers to the map
   - Create an optimal route to visit all participants
   - Create turn-by-turn instructions
 1. TMS WEB Core and XData:
