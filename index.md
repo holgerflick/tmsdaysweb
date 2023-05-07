@@ -35,9 +35,19 @@ I do not consider it necessary to emphasize that there is a clear downside to us
 
 The GitHub repository is available [here](https://github.com/holgerflick/yardsales). This link is only accessible if I added your user profile to the repository. if you do not want to use a Git client to access the latest version, a ZIP file that is completely loosely coupled from version control or any further updates, can be downloaded [here](https://github.com/holgerflick/yardsales/archive/refs/heads/main.zip). Still, signing up to the repository allows you to opt-in for notification of future updates.
 
+## Can you offer discounts...
+
+- on one of your books? No. The publisher does not allow me to hand out individual discounts.
+- on class-room size orders (10 or more) of your books? Yes. Please get in touch.
+- on one of your video courses? Certainly. As an attendee of this event, you are eligible for a 30% discount **during** this event and **in person**. Please ask me for a discount code. 
+
+## I don't like...
+- Amazon. **Can I order your book somewhere else?** No. Amazon is my exclusive publisher.
+- Teachable. **Can I download your course or purchase it somewhere else?** No. Landgraf.dev is my exclusive learning platform.
+
 ## More from Holger
 
-If you liked my sessions, maybe there is even more content available that will help you. On the top of the page, you will find links to my Delphi books and video courses that are available for purchase worldwide. 
+If you liked my sessions, maybe there is even more content available that will help you. On the top of the page, you will find links to my Delphi books and video courses that are available for purchase worldwide. If you just want to say "*Thank you*", you can always buy me [a cup of ☕️](https://ko-fi.com/holgerflick) (thanks to Ko-fi.com).  
 
 ## Contracting
 
